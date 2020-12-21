@@ -18,7 +18,7 @@ const titleCased = () => {
     // iterate over each string and capitalize
     for (let i = 0; i < tutorialString.length; i++) {
       tutorialString[i] = tutorialString[i].charAt(0).toUpperCase() +
-        tutorialString.slice(1)
+        tutorialString[i].slice(1)
     }
     return tutorialString.join(" ")
   });
