@@ -22,6 +22,7 @@ const titleCased = () => {
   //   }
   //   return tutorialString.join(" ")
   // });
+  
   return tutorials
 }
 
