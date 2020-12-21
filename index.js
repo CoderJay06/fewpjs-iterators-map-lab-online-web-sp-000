@@ -22,14 +22,14 @@ const titleCased = () => {
   //   }
   //   return tutorialString.join(" ")
   // });
-  tutorials.map(function(tutorial) {
+  let capitalizedTutorials = tutorials.map(function(tutorial) {
     let tutorialString = tutorial.split(" ")
     for (let i = 0; i < tutorialString.length; i++) {
         tutorialString[i] = tutorialString[i].charAt(0).toUpperCase() + tutorialString[i].slice(1)
     }
     return tutorialString.join(" ")
   });
-  return tutorials
+  return capitalizedTutorials
 }
 
 
