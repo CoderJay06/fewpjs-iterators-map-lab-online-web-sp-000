@@ -20,8 +20,8 @@ const titleCased = () => {
       tutorialString[i] = tutorialString[i].charAt(0).toUpperCase() +
         tutorialString.slice(1).join(" ")
     }
+    return tutorials
   });
-  return tutorials
 }
 
 
